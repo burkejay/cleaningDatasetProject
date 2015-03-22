@@ -4,8 +4,8 @@ author: "Jay Burke"
 date: "March 21, 2015"
 output: html_document
 ---
- - Burke Averages & STDs: Version 0.1
- - UCI's Human Activity Recognition Using Smartphones Dataset - Averages and Standard Deviations UCI: Version 1.0 UCI: activityrecognition@smartlab.ws
+- Burke Averages & STDs: Version 0.1
+- UCI's Human Activity Recognition Using Smartphones Dataset, by UCI: Version 1.0 activityrecognition@smartlab.ws
 
 ## Overview
 

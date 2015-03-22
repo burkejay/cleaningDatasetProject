@@ -8,10 +8,13 @@ output: html_document
 ## Data Dictionary of Burke's Averages and STD's of UCI's Human Activity Recognition Dataset
 
 This dataset consists of 180 rows x 69 columns: 
- - 180 rows: the average values of the means and average values of the standard deviations of the measurements taken from the phones of 30 volunteers performing 6 actions (30 x 6).
- - 69 columns: 3 dimensions + 66 measurements.  The assignment specified that we were to collect only the means and standard deviations, which are measurements specifically called out by variable names ending in mean() and std(),  Other columns in the UCI dataset that had the string "mean" and "std" are not measurement means and std's.
- 
+
+- 180 rows: the average values of the means and average values of the standard deviations of the measurements taken from the phones of 30 volunteers performing 6 actions (30 x 6).
+- 69 columns: 3 dimensions + 66 measurements.  The assignment specified that we were to collect only the means and standard deviations of the UCI dataset, which are measurements specifically called out by variable names ending in mean() and std(),  Other columns in the UCI dataset that had the string "mean" and "std" are not measurement means and std's.
+
+### Columns 
 dimension 1: "activity_human_volunteer_executes" : what the human volunteer was doing when the phone registered this row's readings.  Values are strings as categorical values and can be:
+
 - "WALKING"
 - "WALKING_UPSTAIRS"
 - "WALKING_DOWNSTAIRS"
@@ -77,7 +80,7 @@ measurement 56-58: "fBodyGyro-std()-X", "fBodyGyro-std()-Y", "fBodyGyro-std()-Z"
 
 measurement 59: "fBodyAccMag-mean()" : Each cell is the average reading of the averages of the phone's accelerometer's 3 axial signals (X, Y, Z) filtered to derive the body acceleration, combined into a magnitude measurement and then transformed into the frequeny domain for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a frequency unit. 
 
-measurement 60: "fBodyAccMag-std()" : Each cell is the average reading of the standard deviations of the phone's accelerometer's 3 axial signals (X, Y, Z) filtered to derive the body acceleration, combined into a magnitude measurement and then transformed into the frequeny domain for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a frequency unit.
+measurement 60: "fBodyAccMag-std()" : Each cell is the average reading of the standard deviations of the phone's accelerometer's 3 axial signals (X, Y, Z) filtered to derive the body acceleration, combined into a magnitude measurement and then transformed into the frequency domain for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a frequency unit.
 
 measurement 61: "fBodyAccJerkMag-mean()": Each cell is the average reading of the averages of the phone's accelerometer's 3 axial signals (X, Y, Z) filtered to derive the body acceleration and filtered in time to derive Jerk signals, combined into a magnitude measurement and then transformed into the frequency domain for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a frequency unit. 
 
@@ -85,8 +88,8 @@ measurement 62: "fBodyAccJerkMag-std()" : Each cell is the average reading of th
 
 measurement 63: "fBodyGyroMag-mean()" : Each cell is the average reading of the averages of the phone's gyroscope's 3 axial signals (X, Y, Z) filtered to derive the body acceleration, combined into a magnitude measurement for all of the samples and then transformed into the frequency domain for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a frequency unit.
 
-measurement 64: "fBodyGyroMag-std()" : Each cell is the average reading of the averages of the phone's gyroscope's 3 axial signals (X, Y, Z) filtered to derive the body acceleration, combined into a magnitude measurement for all of the samples and then transformed into the frequency domain for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a frequency unit.
+measurement 64: "fBodyGyroMag-std()" : Each cell is the average reading of the standard deviations of the phone's gyroscope's 3 axial signals (X, Y, Z) filtered to derive the body acceleration, combined into a magnitude measurement for all of the samples and then transformed into the frequency domain for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a frequency unit.
 
 measurement 65: "fBodyGyroJerkMag-mean()": Each cell is the average reading of the averages of the phone's gyroscope's 3 axial signals (X, Y, Z) filtered to derive the body acceleration and filtered in time to derive Jerk signals, combined into a single magnitude measurement and then transformed into a frequency measurement for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a time unit.  
 
-measurement 66: "fBodyGyroJerkMag-std()": Each cell is the average reading of the standard deviation of the phone's gyroscope's 3 axial signals (X, Y, Z) filtered to derive the body acceleration and filtered in time to derive Jerk signals, combined into a single magnitude measurement and then transformed into a frequency measurement for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a time unit.
+measurement 66: "fBodyGyroJerkMag-std()": Each cell is the average reading of the standard deviations of the phone's gyroscope's 3 axial signals (X, Y, Z) filtered to derive the body acceleration and filtered in time to derive Jerk signals, combined into a single magnitude measurement and then transformed into a frequency measurement for all of the samples of 1 person doing 1 activity. Values are real numbers between -1 and 1 with a time unit.
