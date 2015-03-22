@@ -4,10 +4,14 @@ author: "Jay Burke"
 date: "March 21, 2015"
 output: html_document
 ---
+UCI's Human Activity Recognition Using Smartphones Dataset - Averages and Standard Deviations
+UCI: Version 1.0
+Burke Averages & STDs: Version 0.1
+UCI: activityrecognition@smartlab.ws
 
 ## Overview
 
-This README describes a package for converting the UCI HAR Dataset of test data from Samsung Galaxy S phones into a tidy dataset of averages and standard deviations of all of the measurements taken during the experiment,
+This README describes a package for converting the UCI HAR Dataset of test data from Samsung Galaxy S phones into a tidy dataset of averages and standard deviations of all of the measurements taken during the experiment.
 
 ### Contents
 
@@ -18,6 +22,8 @@ This README describes a package for converting the UCI HAR Dataset of test data 
 
 > The purest tidy for is a little difficult to say, since we don't have a specific problem to apply it to, but it hinges a little on what a "variable" is- are the variables independent measurements of activity/subject actions (the form the data comes in), or are they members of a set of measurements variables (in a similar way that each activity is a member of the set of activities, as in the diagram, upthread)
 
-> Depending on the interpretation, this could support either data in the wide (first) or the long form (second) being in tidy format, and the marking rubric specifically accepts wide or long. In previous sessions most people were opting for wide. (David Hood, "Tidy data and the Assignment, Forum/Course Project, Getting and Cleaning Data, copied on 3/21/2015.")
+> Depending on the interpretation, this could support either data in the wide (first) or the long form (second) being in tidy format, and the marking rubric specifically accepts wide or long. In previous sessions most people were opting for wide.*
+
+> *David Hood, "Tidy data and the Assignment"", Forum/Course Project, Getting and Cleaning Data, copied on 3/21/2015.
     
 
