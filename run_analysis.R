@@ -1,9 +1,16 @@
 library(dplyr)
 
+# part of step 4: read in descriptive column names
 head2 <- read.table("features.txt",stringsAsFactors=FALSE)
+# part of step 4: use transpose to change from rownames to colnames
 rehead2 <- t(head2$V2)
+# part of step 4: make colnames more descriptive by fixing bad colnames
+rehead2 <- sub("BodyBody", "Body", rehead2)
+
+# part of step 4: add descriptive names for new cols
 all_names <- c(rehead2, "activity", "id_of_human_volunteer")
 
+# step 1: next 8 lines get the 2 datasets and union together
 body1 <- read.table("train/X_train.txt")
 body11 <- read.table("train/y_train.txt")
 body12 <- read.table("train/subject_train.txt")
